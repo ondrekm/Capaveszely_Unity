@@ -1,94 +1,95 @@
-\# Cápaveszély
+﻿# CĂˇpaveszĂ©ly
 
 
 
-Egyszerű 2D Unity játék, amely egy egyetemi játékfejlesztési beadandó keretében készült.
+EgyszerĹ± 2D Unity jĂˇtĂ©k, amely egy egyetemi jĂˇtĂ©kfejlesztĂ©si beadandĂł keretĂ©ben kĂ©szĂĽlt.
 
 
 
-\## A játék célja
+## A jĂˇtĂ©k cĂ©lja
 
 
 
-A játékos egy cápát irányít. A cél 10 hal összegyűjtése úgy, hogy közben elkerülje a mozgó köveket.
+A jĂˇtĂ©kos egy cĂˇpĂˇt irĂˇnyĂ­t. A cĂ©l 10 hal Ă¶sszegyĹ±jtĂ©se Ăşgy, hogy kĂ¶zben elkerĂĽlje a mozgĂł kĂ¶veket.
 
 
 
-\- Egy hal elkapása: \*\*+1 pont\*\*
+- Egy hal elkapĂˇsa: **+1 pont**
 
-\- 10 pont elérése: \*\*győzelem\*\*
+- 10 pont elĂ©rĂ©se: **gyĹ‘zelem**
 
-\- Kővel való ütközés: \*\*Game Over\*\*
-
-
-
-\## Irányítás
+- KĹ‘vel valĂł ĂĽtkĂ¶zĂ©s: **Game Over**
 
 
 
-A cápa a billentyűzet nyílbillentyűivel irányítható:
+## IrĂˇnyĂ­tĂˇs
 
 
 
-\- ↑ felfelé
-
-\- ↓ lefelé
-
-\- ← balra
-
-\- → jobbra
+A cĂˇpa a billentyĹ±zet nyĂ­lbillentyĹ±ivel irĂˇnyĂ­thatĂł:
 
 
 
-\## Főbb funkciók
+- â†‘ felfelĂ©
+
+- â†“ lefelĂ©
+
+- â† balra
+
+- â†’ jobbra
 
 
 
-\- 2D játék Unityben
-
-\- irányítható játékos
-
-\- 3 mozgó hal eltérő sebességgel
-
-\- 3 mozgó akadály eltérő sebességgel
-
-\- ütközésérzékelés
-
-\- pontszám
-
-\- győzelmi és vereségi feltétel
-
-\- újrakezdési lehetőség
-
-\- állapotfüggő cápa sprite-ok
-
-\- TextMeshPro alapú felhasználói felület
+## FĹ‘bb funkciĂłk
 
 
 
-\## Főbb scriptek
+- 2D jĂˇtĂ©k Unityben
+
+- irĂˇnyĂ­thatĂł jĂˇtĂ©kos
+
+- 3 mozgĂł hal eltĂ©rĹ‘ sebessĂ©ggel
+
+- 3 mozgĂł akadĂˇly eltĂ©rĹ‘ sebessĂ©ggel
+
+- ĂĽtkĂ¶zĂ©sĂ©rzĂ©kelĂ©s
+
+- pontszĂˇm
+
+- gyĹ‘zelmi Ă©s veresĂ©gi feltĂ©tel
+
+- ĂşjrakezdĂ©si lehetĹ‘sĂ©g
+
+- ĂˇllapotfĂĽggĹ‘ cĂˇpa sprite-ok
+
+- TextMeshPro alapĂş felhasznĂˇlĂłi felĂĽlet
 
 
 
-\- `SharkController.cs` – a cápa mozgatása és sprite-váltásai
-
-\- `FishMovement.cs` – a halak mozgása és elkapása
-
-\- `StoneMovement.cs` – a kövek mozgása és az ütközések kezelése
-
-\- `GameManager.cs` – pontszám, győzelem, vereség és újrakezdés
+## FĹ‘bb scriptek
 
 
 
-\## Technológia
+- `SharkController.cs` â€“ a cĂˇpa mozgatĂˇsa Ă©s sprite-vĂˇltĂˇsai
+
+- `FishMovement.cs` â€“ a halak mozgĂˇsa Ă©s elkapĂˇsa
+
+- `StoneMovement.cs` â€“ a kĂ¶vek mozgĂˇsa Ă©s az ĂĽtkĂ¶zĂ©sek kezelĂ©se
+
+- `GameManager.cs` â€“ pontszĂˇm, gyĹ‘zelem, veresĂ©g Ă©s ĂşjrakezdĂ©s
 
 
 
-\- Unity
+## TechnolĂłgia
 
-\- C#
 
-\- 2D Physics
 
-\- TextMeshPro
+- Unity
+
+- C#
+
+- 2D Physics
+
+- TextMeshPro
+
 
